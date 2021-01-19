@@ -15,7 +15,6 @@
     <link rel="stylesheet"
         href="simplelineicons.github.io-master/css/simple-line-icons.css">
     <title>SCSS-Sitebuild</title>
-
 </head>
 
 <body>
@@ -26,7 +25,20 @@
                 Menu
                 <i class="fas fa-bars"></i>
             </button>
-            <div>
+            <div class="upper-menu">
+                <ul class="nav-list-upper">
+                    <li>
+                        <a class="nav-link-upper" href="#download">Download</a>
+                    </li>
+                    <li>
+                        <a class="nav-link-upper" href="#features">Features</a>
+                    </li>
+                    <li>
+                        <a class="nav-link-upper" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="mobile-menu">
                 <ul class="nav-list">
                     <li>
                         <a class="nav-link" href="#download">Download</a>
@@ -81,9 +93,7 @@
     </section>
 
     <section id="features">
-
         <div class="features-content">
-
             <div class="features-header">
                 <h2>Unlimited Features, Unlimited Fun</h2>
                 <p class="icon-text">Check out what you can do with this app
@@ -91,15 +101,14 @@
                 <hr>
             </div>
 
-            <div class="iphone">
+            <div class="iphone-2">
                 <img class="image" src="img/phone.png" alt="Phone">
-                <div class="picture-container">
+                <div class="picture-container-2">
                     <img class="image" src="img/demo-screen-1.jpg" alt="Screen">
                 </div>
             </div>
 
             <div class="features-icons">
-
                 <div class="features-item">
                     <i class="icon-screen-smartphone text-primary"></i>
                     <h3>Device Mockups</h3>
@@ -131,20 +140,18 @@
                         can use it commercially!
                     </p>
                 </div>
-
             </div>
+    </section>
 
-            <section class="cta">
-                <div class="cta-content">
-                    <div>
-                        <h2>Stop waiting.<br>Start building.</h2>
-                        <button class="main-button" href="#contact">Let's Get
-                            Started!</a>
-                    </div>
-                </div>
-                <div class="overlay"></div>
-            </section>
-
+    <section class="cta">
+        <div class="cta-content">
+            <div>
+                <h2>Stop waiting.<br>Start building.</h2>
+                <button class="main-button" href="#contact">Let's Get
+                    Started!</a>
+            </div>
+        </div>
+        <div class="overlay"></div>
     </section>
 
     <section class="contact" id="contact">
@@ -194,8 +201,8 @@
         <div class="popup-content">
             <h1>Privacy Regulations</h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque
-                voluptatem dignissimos quis expedita earum explicabo nam
-                perspiciatis. Aliquam, laudantium doloremque.</p>
+                voluptatem dignissimos quis expedita earum
+                explicabo nam perspiciatis. Aliquam, laudantium doloremque.</p>
             <a href="#footer" class="close-popup">&times;</a>
         </div>
     </div>
@@ -204,8 +211,8 @@
         <div class="popup-content">
             <h1>Terms</h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque
-                voluptatem dignissimos quis expedita earum explicabo nam
-                perspiciatis. Aliquam, laudantium doloremque.</p>
+                voluptatem dignissimos quis expedita earum
+                explicabo nam perspiciatis. Aliquam, laudantium doloremque.</p>
             <a href="#footer" class="close-popup">&times;</a>
         </div>
     </div>
@@ -214,14 +221,13 @@
         <div class="popup-content">
             <h1>FAQ</h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque
-                voluptatem dignissimos quis expedita earum explicabo nam
-                perspiciatis. Aliquam, laudantium doloremque.</p>
+                voluptatem dignissimos quis expedita earum
+                explicabo nam perspiciatis. Aliquam, laudantium doloremque.</p>
             <a href="#footer" class="close-popup">&times;</a>
         </div>
     </div>
 
+
     <script src="js/main.js"></script>
-
 </body>
-
 </html>
